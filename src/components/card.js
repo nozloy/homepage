@@ -8,7 +8,7 @@ const Card = () => {
 		<div className='w-full scroll-smooth'>
 			<div
 				className='flex flex-col justify-center max-w-sm mx-auto
-             bg-white shadow-xl rounded-xl p-5 sm:max-w-md'
+             bg-white shadow-xl rounded-xl p-5 sm:max-w-xl'
 			>
 				<img
 					className='w-32 drop-shadow-sm mx-auto shadow-xl rounded-full sm:w-48'

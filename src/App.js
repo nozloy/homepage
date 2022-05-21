@@ -6,10 +6,10 @@ import Skills from './components/skills'
 function App() {
 	return (
 		<div>
-			<div className='bg-gray-100 min-h-screen py-10 px-3 sm:px-5'>
+			<div className='bg-gray-100 min-h-screen py-10 px-3 sm:px-5 '>
 				<Card />
 			</div>
-			<div className='bg-gray-600 min-h-screen py-10 px-3 sm:px-5'>
+			<div className='bg-white min-h-screen py-10 px-3 sm:px-5'>
 				<Skills />
 			</div>
 		</div>

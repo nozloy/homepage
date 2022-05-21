@@ -3,7 +3,14 @@
 @tailwind utilities;
 
 @layer components {
-  .link {@apply m-3 hover:text-yellow-500 transition duration-300 ease-in-out}
+  .link {@apply m-3 mb-0 text-slate-700 hover:text-yellow-500 transition duration-300 ease-in-out}
+  .skill {@apply flex flex-col w-20 sm:w-28 sm:m-4 sm:p-2 m-2 pb-2 sm:pb-4 overflow-hidden bg-white rounded-xl neo}
+  .icon {@apply m-3 mb-1 text-slate-700 mx-auto text-4xl sm:text-6xl}
+  .icontitle {@apply text-base sm:text-xl font-semibold text-center}
+  .neo {
+  box-shadow: 5px 5px 17px #d9d9d9,
+    -5px -5px 17px #ffffff;
+  }
 }
 
 body {

@@ -8,7 +8,7 @@ import { FaTelegram } from 'react-icons/fa'
 
 const Links = () => {
 	return (
-		<div className='flex justify-center mx-auto text-2xl text-slate-700 sm:text-4xl '>
+		<div className='flex justify-center mx-auto text-2xl sm:text-4xl '>
 			<a className='link' href='https://t.me/a_sadykoff' target='blank'>
 				<FaTelegram />
 				<span className=' sr-only'>Telegram</span>
