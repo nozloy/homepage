@@ -6,11 +6,13 @@ import Skills from './components/skills'
 function App() {
 	return (
 		<div>
-			<div className='bg-gray-100 min-h-screen py-10 px-3 sm:px-5 '>
-				<Card />
-			</div>
-			<div className='bg-white min-h-screen py-10 px-3 sm:px-5'>
-				<Skills />
+			<div className='snap-y snap-mandatory h-screen overflow-scroll scroll-smooth'>
+				<div className='snap-start bg-gray-100 min-h-screen py-10 px-3 sm:px-5'>
+					<Card />
+				</div>
+				<div className='snap-start bg-white min-h-screen py-10 px-3 sm:px-5'>
+					<Skills />
+				</div>
 			</div>
 		</div>
 	)
