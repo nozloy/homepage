@@ -35,7 +35,7 @@ const Card = () => {
 				initial={{ y: 500 }}
 				animate={{ y: 0 }}
 				transition={{
-					delay: 0.9,
+					delay: 0.7,
 					type: 'spring',
 					ease: 'easeOut',
 					damping: 15,

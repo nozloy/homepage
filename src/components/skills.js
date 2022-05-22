@@ -1,6 +1,7 @@
 import React from 'react'
 import {
 	SiReact,
+	SiTypescript,
 	SiTailwindcss,
 	SiChakraui,
 	SiFramer,
@@ -32,6 +33,12 @@ const Skills = () => {
 					<div className='skill'>
 						<SiReact className='icon' />
 						<p className='icontitle'>React</p>
+					</div>
+					<div className='skill'>
+						<SiTypescript className='icon' />
+						<p className='sm:text-xl sm:pt-0 font-semibold text-center text-sm pt-1'>
+							TypeScript
+						</p>
 					</div>
 					<div className='skill'>
 						<SiTailwindcss className='icon' />
