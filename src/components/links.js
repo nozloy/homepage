@@ -9,7 +9,7 @@ import { FaTelegram } from 'react-icons/fa'
 const Links = () => {
 	return (
 		<div className='flex justify-center mx-auto text-2xl sm:text-4xl '>
-			<a className='link' href='https://t.me/a_sadykoff' target='blank'>
+			<a className='link' href='https://t.me/nozloy' target='blank'>
 				<FaTelegram />
 				<span className=' sr-only'>Telegram</span>
 			</a>
@@ -21,7 +21,7 @@ const Links = () => {
 				<FaBehanceSquare />
 				<span className=' sr-only'>Behance</span>
 			</a>
-			<a className='link' href='https://twitter.com/NoZloy' target='blank'>
+			<a className='link' href='https://twitter.com/Nozloy' target='blank'>
 				<AiFillTwitterCircle />
 				<span className=' sr-only'>Twitter</span>
 			</a>

@@ -1,5 +1,8 @@
 import React from 'react'
 import {
+	SiNpm,
+	SiYarn,
+	SiHomebrew,
 	SiReact,
 	SiTypescript,
 	SiTailwindcss,
@@ -25,11 +28,23 @@ import {
 const Skills = () => {
 	return (
 		<div className='w-full scroll-smooth '>
-			<div className='flex flex-col justify-center max-w-md mx-auto md:max-w-xl'>
+			<div className='flex flex-col justify-center mx-auto '>
 				<div className='flex justify-center text-2xl text-slate-700 font-bold sm:text-4xl'>
 					My skills
 				</div>
 				<div className='flex flex-wrap justify-center pt-8 sm:pt-12 mx-auto'>
+					<div className='skill'>
+						<SiNpm className='icon' />
+						<p className='icontitle'>npm</p>
+					</div>
+					<div className='skill'>
+						<SiYarn className='icon' />
+						<p className='icontitle'>yarn</p>
+					</div>
+					<div className='skill'>
+						<SiHomebrew className='icon' />
+						<p className='icontitle'>brew</p>
+					</div>
 					<div className='skill'>
 						<SiReact className='icon' />
 						<p className='icontitle'>React</p>
