@@ -27,7 +27,7 @@ import {
 
 const Skills = () => {
 	return (
-		<div className='w-full scroll-smooth '>
+		<div className='w-full max-w-4xl mx-auto scroll-smooth'>
 			<div className='flex flex-col justify-center mx-auto '>
 				<div className='flex justify-center text-2xl text-slate-700 font-bold sm:text-4xl'>
 					My skills
