@@ -22,7 +22,7 @@ function MyEffectComposer() {
 	return (
 		<EffectComposer enableNormalPass>
 			<DepthOfField focusDistance={0} focalLength={0.1} bokehScale={7} />
-			<ToneMapping middleGrey={0.0} maxLuminance={1} />
+			<ToneMapping middleGrey={1.0} maxLuminance={1} />
 			<Noise opacity={0.02} />
 			{/* <SSAO /> */}
 		</EffectComposer>
@@ -32,7 +32,11 @@ function MyEffectComposer() {
 const Model = () => {
 	return (
 		<Canvas shadows dpr={[1, 2]} camera={{ fov: 75, position: [-20, 5, -10] }}>
-			<Environment files='./noon_grass_1k.hdr' background={true} />
+			<Environment
+				files='./noon_grass_1k.hdr'
+				background={true}
+				environmentIntensity={0}
+			/>
 			<OrbitControls
 				enableRotate={true}
 				enableZoom={false}
@@ -43,7 +47,7 @@ const Model = () => {
 				maxAzimuthAngle={0 - 1.7}
 			/>
 			<MyEffectComposer />
-			{/* <ambientLight intensity={0} /> */}
+			<ambientLight intensity={1} />
 			<group scale={1} position={[0, 0, -2]} castShadow receiveShadow>
 				<Level />
 			</group>
