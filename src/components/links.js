@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsGithub } from 'react-icons/bs'
 import { FaBehanceSquare } from 'react-icons/fa'
-import { AiFillTwitterCircle } from 'react-icons/ai'
+import { IoLogoDiscord } from 'react-icons/io5'
 import { IoLogoYoutube } from 'react-icons/io'
 import { AiFillInstagram } from 'react-icons/ai'
 import { FaTelegram } from 'react-icons/fa'
@@ -21,9 +21,13 @@ const Links = () => {
 				<FaBehanceSquare />
 				<span className=' sr-only'>Behance</span>
 			</a>
-			<a className='link' href='https://twitter.com/Nozloy' target='blank'>
-				<AiFillTwitterCircle />
-				<span className=' sr-only'>Twitter</span>
+			<a
+				className='link'
+				href='https://discordapp.com/users/237260108738985984'
+				target='blank'
+			>
+				<IoLogoDiscord />
+				<span className=' sr-only'>Discord</span>
 			</a>
 			<a
 				className='link'
