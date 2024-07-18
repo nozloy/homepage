@@ -31,7 +31,7 @@ const Links = () => {
 			</a>
 			<a
 				className='link'
-				href='https://www.youtube.com/c/SadykoffFamily'
+				href='https://www.youtube.com/@kitchenanykey'
 				target='blank'
 			>
 				<IoLogoYoutube />
